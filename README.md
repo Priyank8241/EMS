@@ -1,6 +1,9 @@
 The Employee Management System (EMS) is a comprehensive database solution designed to streamline HR operations, including employee records, job roles, leave tracking, attendance, salary management, and project assignments. With a normalized data model and temporal versioning, EMS ensures efficient data retrieval, auditing, and compliance. It supports multi-user access, integrates with payroll and reporting modules, and enhances workforce management through structured automation.
+
 The 15-Day Data Recovery Policy ensures that deleted or modified data can be restored within 15 days of the change. During this period, backups are securely retained, allowing recovery in case of accidental deletion, corruption, or system failure. After 15 days, data is permanently removed unless archived separately. This policy enhances data integrity, minimizes downtime, and aligns with compliance and security standards for business continuity.
+
 The User Log tracks user activities, including logins, updates, and access history for security and auditing. The Data Recovery Log records all recovery operations, including timestamps, restored data, and user actions, ensuring compliance with the 15-Day Data Recovery Policy. The Error Log captures system errors, failures, and exceptions for troubleshooting and performance monitoring, aiding in quick issue resolution and system stability.
+
 The User Log & Error Log Retention Policy ensures that logs are retained for one month before automatic deletion. The User Log records login history, access details, and activity tracking, while the Error Log captures system failures and exceptions for debugging. After 30 days, logs are purged to optimize storage and maintain system performance. Critical logs can be archived separately for compliance or auditing needs, ensuring security and operational efficiency.
 
 Database Folder Sturchure Explaination 
@@ -128,8 +131,11 @@ views_definition.sql → SQL statements for views.
 
 📜 Miscellaneous
 .gitignore → Prevents unnecessary files from being committed (e.g., .bak backups).
+
 README.md → The main documentation for this repository.
+
 LICENSE → Open-source or proprietary license details.
+
 database_architecture.pdf → ERD and other database diagrams.
 
 
